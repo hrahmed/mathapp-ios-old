@@ -13,6 +13,21 @@
 		609AEAB51A019BF7003F6B15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 609AEAB41A019BF7003F6B15 /* Images.xcassets */; };
 		609AEAB81A019BF7003F6B15 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 609AEAB61A019BF7003F6B15 /* LaunchScreen.xib */; };
 		609AEAC41A019BF8003F6B15 /* mathappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609AEAC31A019BF8003F6B15 /* mathappTests.swift */; };
+		60C142B11A04382C003CF492 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C142B01A04382C003CF492 /* CoreData.framework */; };
+		60C142B31A043839003CF492 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C142B21A043839003CF492 /* CoreTelephony.framework */; };
+		60C142B51A043864003CF492 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C142B41A043864003CF492 /* CoreLocation.framework */; };
+		60C142B71A04386E003CF492 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C142B61A04386E003CF492 /* CoreGraphics.framework */; };
+		60C142B91A043884003CF492 /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C142B81A043884003CF492 /* libc++.1.dylib */; };
+		60C142BB1A043891003CF492 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C142BA1A043891003CF492 /* UIKit.framework */; };
+		60C142BD1A04389E003CF492 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C142BC1A04389E003CF492 /* Foundation.framework */; };
+		60C142BF1A0438A9003CF492 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C142BE1A0438A9003CF492 /* SystemConfiguration.framework */; };
+		60C14DCE1A04552B003CF492 /* mathapp.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C14DCD1A04552B003CF492 /* mathapp.m */; };
+		60F457411A0955CE0084886D /* MathApp_camdo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60F457401A0955CE0084886D /* MathApp_camdo.plist */; };
+		60F457671A095AC30084886D /* CAMDODataModel.mom in Resources */ = {isa = PBXBuildFile; fileRef = 60F457641A095AC30084886D /* CAMDODataModel.mom */; };
+		60F457681A095AC30084886D /* VersionInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60F457651A095AC30084886D /* VersionInfo.plist */; };
+		60F4576F1A095ECA0084886D /* ca-maa-ios-sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F4576A1A095ECA0084886D /* ca-maa-ios-sdk.framework */; };
+		60F457701A095ECA0084886D /* CAMDODataModel.mom in Resources */ = {isa = PBXBuildFile; fileRef = 60F4576D1A095ECA0084886D /* CAMDODataModel.mom */; };
+		60F457711A095ECA0084886D /* VersionInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60F4576E1A095ECA0084886D /* VersionInfo.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +51,23 @@
 		609AEABD1A019BF8003F6B15 /* mathappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mathappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		609AEAC21A019BF8003F6B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		609AEAC31A019BF8003F6B15 /* mathappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mathappTests.swift; sourceTree = "<group>"; };
+		60C142B01A04382C003CF492 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		60C142B21A043839003CF492 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		60C142B41A043864003CF492 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		60C142B61A04386E003CF492 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		60C142B81A043884003CF492 /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "usr/lib/libc++.1.dylib"; sourceTree = SDKROOT; };
+		60C142BA1A043891003CF492 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		60C142BC1A04389E003CF492 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		60C142BE1A0438A9003CF492 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		60C14DCC1A04552A003CF492 /* mathapp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mathapp-Bridging-Header.h"; sourceTree = "<group>"; };
+		60C14DCD1A04552B003CF492 /* mathapp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mathapp.m; sourceTree = "<group>"; };
+		60F457401A0955CE0084886D /* MathApp_camdo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MathApp_camdo.plist; sourceTree = "<group>"; };
+		60F457611A095AC30084886D /* ca-maa-ios-sdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "ca-maa-ios-sdk.framework"; sourceTree = "<group>"; };
+		60F457641A095AC30084886D /* CAMDODataModel.mom */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = CAMDODataModel.mom; sourceTree = "<group>"; };
+		60F457651A095AC30084886D /* VersionInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = VersionInfo.plist; sourceTree = "<group>"; };
+		60F4576A1A095ECA0084886D /* ca-maa-ios-sdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "ca-maa-ios-sdk.framework"; sourceTree = "<group>"; };
+		60F4576D1A095ECA0084886D /* CAMDODataModel.mom */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = CAMDODataModel.mom; sourceTree = "<group>"; };
+		60F4576E1A095ECA0084886D /* VersionInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = VersionInfo.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +75,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60C142BF1A0438A9003CF492 /* SystemConfiguration.framework in Frameworks */,
+				60C142BD1A04389E003CF492 /* Foundation.framework in Frameworks */,
+				60C142BB1A043891003CF492 /* UIKit.framework in Frameworks */,
+				60C142B91A043884003CF492 /* libc++.1.dylib in Frameworks */,
+				60C142B71A04386E003CF492 /* CoreGraphics.framework in Frameworks */,
+				60C142B51A043864003CF492 /* CoreLocation.framework in Frameworks */,
+				60C142B31A043839003CF492 /* CoreTelephony.framework in Frameworks */,
+				60F4576F1A095ECA0084886D /* ca-maa-ios-sdk.framework in Frameworks */,
+				60C142B11A04382C003CF492 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +100,16 @@
 		609AEA9F1A019BF7003F6B15 = {
 			isa = PBXGroup;
 			children = (
+				60F457691A095ECA0084886D /* ca-maa-ios-sdk.embeddedframework */,
+				60F457601A095AC30084886D /* ca-maa-ios-sdk.embeddedframework */,
+				60C142BE1A0438A9003CF492 /* SystemConfiguration.framework */,
+				60C142BC1A04389E003CF492 /* Foundation.framework */,
+				60C142BA1A043891003CF492 /* UIKit.framework */,
+				60C142B81A043884003CF492 /* libc++.1.dylib */,
+				60C142B61A04386E003CF492 /* CoreGraphics.framework */,
+				60C142B41A043864003CF492 /* CoreLocation.framework */,
+				60C142B21A043839003CF492 /* CoreTelephony.framework */,
+				60C142B01A04382C003CF492 /* CoreData.framework */,
 				609AEAAA1A019BF7003F6B15 /* mathapp */,
 				609AEAC01A019BF8003F6B15 /* mathappTests */,
 				609AEAA91A019BF7003F6B15 /* Products */,
@@ -77,12 +128,15 @@
 		609AEAAA1A019BF7003F6B15 /* mathapp */ = {
 			isa = PBXGroup;
 			children = (
+				60F457401A0955CE0084886D /* MathApp_camdo.plist */,
 				609AEAAD1A019BF7003F6B15 /* AppDelegate.swift */,
 				609AEAAF1A019BF7003F6B15 /* ViewController.swift */,
 				609AEAB11A019BF7003F6B15 /* Main.storyboard */,
 				609AEAB41A019BF7003F6B15 /* Images.xcassets */,
 				609AEAB61A019BF7003F6B15 /* LaunchScreen.xib */,
 				609AEAAB1A019BF7003F6B15 /* Supporting Files */,
+				60C14DCD1A04552B003CF492 /* mathapp.m */,
+				60C14DCC1A04552A003CF492 /* mathapp-Bridging-Header.h */,
 			);
 			path = mathapp;
 			sourceTree = "<group>";
@@ -110,6 +164,58 @@
 				609AEAC21A019BF8003F6B15 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60F457601A095AC30084886D /* ca-maa-ios-sdk.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				60F457611A095AC30084886D /* ca-maa-ios-sdk.framework */,
+				60F457621A095AC30084886D /* Resources */,
+			);
+			path = "ca-maa-ios-sdk.embeddedframework";
+			sourceTree = "<group>";
+		};
+		60F457621A095AC30084886D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60F457631A095AC30084886D /* CAMDODataModel.momd */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		60F457631A095AC30084886D /* CAMDODataModel.momd */ = {
+			isa = PBXGroup;
+			children = (
+				60F457641A095AC30084886D /* CAMDODataModel.mom */,
+				60F457651A095AC30084886D /* VersionInfo.plist */,
+			);
+			path = CAMDODataModel.momd;
+			sourceTree = "<group>";
+		};
+		60F457691A095ECA0084886D /* ca-maa-ios-sdk.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				60F4576A1A095ECA0084886D /* ca-maa-ios-sdk.framework */,
+				60F4576B1A095ECA0084886D /* Resources */,
+			);
+			path = "ca-maa-ios-sdk.embeddedframework";
+			sourceTree = "<group>";
+		};
+		60F4576B1A095ECA0084886D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60F4576C1A095ECA0084886D /* CAMDODataModel.momd */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		60F4576C1A095ECA0084886D /* CAMDODataModel.momd */ = {
+			isa = PBXGroup;
+			children = (
+				60F4576D1A095ECA0084886D /* CAMDODataModel.mom */,
+				60F4576E1A095ECA0084886D /* VersionInfo.plist */,
+			);
+			path = CAMDODataModel.momd;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +301,11 @@
 				609AEAB31A019BF7003F6B15 /* Main.storyboard in Resources */,
 				609AEAB81A019BF7003F6B15 /* LaunchScreen.xib in Resources */,
 				609AEAB51A019BF7003F6B15 /* Images.xcassets in Resources */,
+				60F457411A0955CE0084886D /* MathApp_camdo.plist in Resources */,
+				60F457671A095AC30084886D /* CAMDODataModel.mom in Resources */,
+				60F457711A095ECA0084886D /* VersionInfo.plist in Resources */,
+				60F457681A095AC30084886D /* VersionInfo.plist in Resources */,
+				60F457701A095ECA0084886D /* CAMDODataModel.mom in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60C14DCE1A04552B003CF492 /* mathapp.m in Sources */,
 				609AEAB01A019BF7003F6B15 /* ViewController.swift in Sources */,
 				609AEAAE1A019BF7003F6B15 /* AppDelegate.swift in Sources */,
 			);
@@ -336,9 +448,32 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ca-maa-ios-sdk.embeddedframework",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ca-maa-ios-sdk.embeddedframework",
+				);
 				INFOPLIST_FILE = mathapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-WI",
+					"-force_load",
+					"ca-maa-ios-sdk.embeddedframework/ca-maa-ios-sdk.framework/ca-maa-ios-sdk",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-WI",
+					"-force_load",
+					"ca-maa-ios-sdk.embeddedframework/ca-maa-ios-sdk.framework/ca-maa-ios-sdk",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "mathapp/mathapp-Bridging-Header.h";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "mathapp/mathapp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -346,9 +481,33 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ca-maa-ios-sdk.embeddedframework",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ca-maa-ios-sdk.embeddedframework",
+				);
 				INFOPLIST_FILE = mathapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-WI",
+					"-force_load",
+					c.,
+					"ca-maa-ios-sdk.embeddedframework/ca-maa-ios-sdk.framework/ca-maa-ios-sdk",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-WI",
+					"-force_load",
+					c.,
+					"ca-maa-ios-sdk.embeddedframework/ca-maa-ios-sdk.framework/ca-maa-ios-sdk",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "mathapp/mathapp-Bridging-Header.h";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "mathapp/mathapp-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -405,6 +564,7 @@
 				609AEAC91A019BF8003F6B15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		609AEACA1A019BF8003F6B15 /* Build configuration list for PBXNativeTarget "mathappTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +573,7 @@
 				609AEACC1A019BF8003F6B15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
